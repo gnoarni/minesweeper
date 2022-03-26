@@ -1,0 +1,100 @@
+body{
+    background-image:url(/img/michael_jordan_wallpaper_by_redzero03_d776thg-fullview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    text-align: center;
+}
+.timer{
+    width: 200px;
+    color: aqua;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+table{
+    border: 1px solid black;
+    border-spacing: 3px;
+    /* height: 400px; */
+    /* width: 400px; */
+    margin: auto;
+    margin-top: 110px;
+    background-color:rgba(131, 6, 6, 0.719);
+}
+td{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    background-color:rgb(248, 153, 153);
+    border-left:solid 5px rgba(31, 0, 0, 0.719);
+    border-top:solid 5px rgba(31, 0, 0, 0.719);
+    border-bottom: 5px solid rgb(248, 153, 153);
+    border-right: 5px solid rgb(248, 153, 153);
+    text-align: center;
+    font-size: x-large;
+    cursor: pointer;
+}
+.reset-button{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(169, 231, 231);
+    cursor: pointer;
+    margin-top: 40px;
+    margin: auto;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 90%;
+    cursor: pointer;
+}
+
+.lbj{
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    cursor: pointer;
+    margin-top: 40px;
+    margin:auto;
+}
+
+.trophy{
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    cursor: pointer;
+    margin-top: 40px;
+    margin:auto;
+}
+
+.mvp{
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
+
+.mvp img{
+    height: 70px;
+    width: 70px;
+    
+}
+
+.pipen{
+    position: absolute;
+    left: 1500px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.pipen img{
+    height: 70;
+    width: 70px;
+}
