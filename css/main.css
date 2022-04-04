@@ -1,5 +1,5 @@
 body{
-    background-image:url(/img/michael_jordan_wallpaper_by_redzero03_d776thg-fullview.jpg);
+    background-image: url('/img/michael_jordan_wallpaper_by_redzero03_d776thg-fullview.jpg');
     background-size: cover;
     background-repeat: no-repeat ;
     text-align: center;
@@ -78,7 +78,7 @@ button{
 .mvp{
     position: absolute;
     left: 250px;
-    top: 20px;
+    top: 100px;
 }
 
 .mvp img{
@@ -90,7 +90,7 @@ button{
 .pipen{
     position: absolute;
     left: 1500px;
-    top: 20px;
+    top: 100px;
     cursor: pointer;
 }
 

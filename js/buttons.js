@@ -25,9 +25,6 @@ function onCellClick(elCell, idxI, idxJ) {
 
         }
     }
-
-
-
     if (cell.minesAroundCount > 0) {
         tdValue = cell.minesAroundCount
     }

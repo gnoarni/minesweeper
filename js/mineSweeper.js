@@ -25,7 +25,7 @@ var gGame = {
     secsPassed: 0,
     livesCount: gLevel.lives,
     hints: 3,
-    isHintClicked:false
+    isHintClicked: false
 }
 var gMat;
 var gIdTime = null
@@ -95,34 +95,35 @@ function renderLives() {
     var elLives = document.querySelector('.mvp')
     var strHtml = ''
     for (var i = 0; i < gGame.livesCount; i++) {
-        strHtml += `<img  onclick="resetGame(this)" src="/img/mvp.jpg" alt="mvp"></img>`
+        strHtml += `<img  onclick="resetGame(this)" src="img/mvp.jpg" alt="mvp"></img>`
     }
     elLives.innerHTML = strHtml
 }
 function hints() {
-    gGame.isHintClicked=!gGame.isHintClicked
+    gGame.isHintClicked = !gGame.isHintClicked
+    console.log('@!@!@!@!', gGame.isHintClicked)
 }
 
-function showHints(idxI,idxJ){
+function showHints(idxI, idxJ) {
     var elHints = []
     for (var i = idxI - 1; i <= idxI + 1; i++) {
         if (i < 0 || i > gMat.length - 1) continue
         for (var j = idxJ - 1; j <= idxJ + 1; j++) {
             if (j < 0 || j > gMat.length - 1) continue
-            if(gMat.isShown)continue
+            if (gMat.isShown) continue
             var elCell = document.querySelector(`.cell-${i}-${j}`)
             elCell.style.backgroundColor = `rgba(131, 6, 6, 0.719)`
             elHints.push(elCell)
-            
+
         }
     }
-    
+
 }
 function renderHints() {
     var elHints = document.queryCommandIndeterm('.pipen')
     var strHtml = ''
     for (var i = 0; i < gGame.hints; i++) {
-        strHtml += `<img onclick="hints(this)" src="/img/pipen.jpg" alt="pipen"></img>`
+        strHtml += `<img onclick="hints(this)" src="img/pipen.jpg" alt="pipen"></img>`
     }
     elHints.innerHTML = strHtml
 }
